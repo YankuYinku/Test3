@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-downloads
+
+spec:
+  replicas: 1
+
+  template:
+    spec:
+      containers:
+        - name: apps-downloads
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-downloads:latest
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Staging
+            - name: VUE_APP_MEINAPETITO_GRAPHQL_URL
+              value: https://staging.meinapetito.de/api/graphql

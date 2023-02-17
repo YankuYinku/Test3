@@ -1,0 +1,56 @@
+{
+  "category": {
+    "label": "Categorie",
+    "all": {
+      "downloads": "Alle categorieën"
+    }
+  },
+  "downloads": {
+    "searchInputPlaceholder": "Zoeken naar Titel, Beschrijving...",
+    "filesCount": "{count} Bestanden"
+  },
+  "common": {
+    "ok": "Ok",
+    "selectorAllItems": "Alles tonen",
+    "details": "Details tonen",
+    "addToFavorite": "Als favoriet vastleggen",
+    "print": "Afdrukken"
+  },
+  "detailsModal": {
+    "moreDownloads": "Verdere Downloads",
+    "details": "Details"
+  },
+  "notAvailableModal": {
+    "title": "Niet geïmplementeerd",
+    "description": "Deze functie is nog niet geïmplementeerd"
+  },
+  "downloadButton": {
+    "download": "Donwloaden",
+    "downloaded": "Gedownload"
+  },
+  "downloadTabs": {
+    "keywords": "Trefwoorden"
+  },
+  "fileTypes": {
+    "pdf": "PDF document",
+    "doc": "Word document",
+    "docx": "Word document",
+    "xls": "Excel document",
+    "xlsx": "Excel document",
+    "zip": "ZIP Archief",
+    "jpg": "Afbeelding",
+    "jpeg": "Afbeelding",
+    "png": "Afbeelding",
+    "tif": "Afbeelding",
+    "tiff": "Bild",
+    "bmp": "Bild",
+    "gif": "Bild"
+  },
+  "titles": {
+    "downloads": "mijn.apetito {'|'} Downloads"
+  },
+  "downloadList": {
+    "nothingFound": "Voor uw zoekopdracht zijn geen resultaten gevonden.",
+    "emptySortiments": "Momenteel zijn er geen downloads voor handen - probeer het aub later opnieuw. Als het probleem zich blijft voordoen, neem dan contact met ons op"
+  }
+}

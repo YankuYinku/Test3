@@ -1,0 +1,56 @@
+{
+  "category": {
+    "label": "Kategorie",
+    "all": {
+      "downloads": "Alle Kategorien"
+    }
+  },
+  "downloads": {
+    "searchInputPlaceholder": "Suche nach Titel, Beschreibung...",
+    "filesCount": "{count} Dateien"
+  },
+  "common": {
+    "ok": "Ok",
+    "selectorAllItems": "Alle anzeigen",
+    "details": "Details anzeigen",
+    "addToFavorite": "Als Favorit speichern",
+    "print": "Drucken"
+  },
+  "detailsModal": {
+    "moreDownloads": "Weitere Downloads",
+    "details": "Details"
+  },
+  "notAvailableModal": {
+    "title": "Nicht implementiert",
+    "description": "Diese Funktion wurde noch nicht implementiert"
+  },
+  "downloadButton": {
+    "download": "Herunterladen",
+    "downloaded": "Heruntergeladen"
+  },
+  "downloadTabs": {
+    "keywords": "Verschlagwortung"
+  },
+  "fileTypes": {
+    "pdf": "PDF Dokument",
+    "doc": "Word Dokument",
+    "docx": "Word Dokument",
+    "xls": "Excel Dokument",
+    "xlsx": "Excel Dokument",
+    "zip": "ZIP Archiv",
+    "jpg": "Bild",
+    "jpeg": "Bild",
+    "png": "Bild",
+    "tif": "Bild",
+    "tiff": "Bild",
+    "bmp": "Bild",
+    "gif": "Bild"
+  },
+  "titles": {
+    "downloads": "mein.apetito {'|'} Downloads"
+  },
+  "downloadList": {
+    "nothingFound": "Zu Ihrer Suchanfrage haben wir leider kein Ergebnis gefunden.",
+    "emptySortiments": "Derzeit stehen keine Downloads zur Verfügung - bitte versuchen Sie es später erneut. Wenn das Problem länger besteht, wenden Sie sich an den Help Desk"
+  }
+}
