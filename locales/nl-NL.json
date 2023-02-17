@@ -1,0 +1,340 @@
+{
+  "main": {
+    "caption": "Mijn klantaccount",
+    "notImplemented": "Deze functie staat binnenkort ter beschikking."
+  },
+  "navigation": {
+    "profile": "Profiel",
+    "company": "Bedrijf",
+    "accounts": "Gebruiker",
+    "orders": "Bestellingen",
+    "bkt": "Tischgast-Erfassung"
+  },
+  "settings": {
+    "action": {
+      "edit": "Bewerken"
+    }
+  },
+  "tabs": {
+    "screenReader": {
+      "selectTab": "Tabblad selecteren"
+    },
+    "profile": {
+      "caption": "Mijn gegevens",
+      "description": "Hier kunt u uw persoonlijke gegevens bekijken.",
+      "name": "Naam",
+      "email": "E-mailadres",
+      "userRole": "Gebruikersrol",
+      "userRoles": {
+        "user": "Gebruiker",
+        "customerAdmin": "Klant-administrator"
+      }
+    },
+    "orders": {
+      "customerNumber": "Klantnummer",
+      "orderDate": "Besteldatum",
+      "deliveryDate": "Leverdatum",
+      "emptyResultMessage": "Voor uw zoekopdracht zijn geen bestellingen gevonden.",
+      "atTime": "om",
+      "types": {
+        "apetito": "apetito",
+        "handelswaren": "Handelswaren",
+        "material": "Folders en benodigdheden"
+      },
+      "status": {
+        "open": "Open",
+        "closed": "Afgesloten",
+        "unknown": "Onbekend",
+        "failed": "mislukt",
+        "inProgress": "In bewerking",
+        "succeeded": "Afgesloten",
+        "succeededPartially": "deels"
+      },
+      "products": "Producten",
+      "filters": {
+        "searchPlaceholder": "Zoek naar artikelnummer",
+        "ordersCountLabel": "Bestellingen",
+        "orderType": {
+          "allTypes": "Alle bestellingen",
+          "productsOnly": "apetito",
+          "hawaOnly": "Handelswaren"
+        },
+        "orderDate": {
+          "allDates": "Leverdatum",
+          "thisMonth": "laatste 30 dagen",
+          "lastThreeMonth": "laatste 3 maanden",
+          "lastSixMonth": "laatste 6 maanden",
+          "thisYear": "dit jaar",
+          "lastYear": "vorig jaar"
+        },
+        "orderStatus": {
+          "allStatus": "Status",
+          "failed": "mislukt",
+          "inProgress": "In bewerking",
+          "succeeded": "Afgesloten",
+          "succeededPartially": "deels"
+        }
+      },
+      "details": {
+        "general": {
+          "orderDate": "Besteldatum",
+          "deliveryDate": "Leverdatum",
+          "totalAmount": "Totaal bedrag",
+          "customerNumber": "Klantnummer",
+          "goodsRecipient": "Goederenontvanger",
+          "status": "Status",
+          "email": "E-mail",
+          "invalidPositions": "Niet leverbare artikelen in deze bestelling",
+          "reorder": "Opnieuw bestellen",
+          "reorderImpossible": "Opnieuw bestellen is voor handelswaren nog niet mogelijk",
+          "articlesNotAvailable": "volgende artikelen zijn momenteel niet leverbaar:",
+          "allArticlesAvailable": "Alle artikelen zijn beschikbaar!",
+          "pleaseConfirmToReorder": "Bevestig aub dat de artikelen opnieuw besteld mogen worden.",
+          "stillOrder": "Toch bestellen",
+          "confirmOrderButtonLabel": "Ja, aub bestellen",
+          "cancel": "annuleren"
+        },
+        "apetito": {
+          "statusSuccess": "Afgesloten",
+          "statusFail": "niet afgesloten",
+          "table": {
+            "articleNumber": "Art.nr.",
+            "comment": "Opmerking",
+            "amount": "Hoeveelheid",
+            "quantity": "Aantal",
+            "available": "beschikbaar"
+          }
+        },
+        "hawa": {
+          "table": {
+            "articleNumber": "Art.nr.",
+            "description": "Omschrijving",
+            "amount": "Hoeveelheid",
+            "price": "Eenheidsprijs",
+            "positionSum": "Totaal",
+            "brutto": "Bruto",
+            "netto": "Netto",
+            "available": "beschikbaar"
+          }
+        }
+      }
+    },
+    "company": {
+      "customerData": {
+        "caption": "Klantgegevens",
+        "description": "Hier kunt u alle klantgegevens van uw bedrijf bekijken.",
+        "customerNumber": "Klantnummer",
+        "company": "Firma",
+        "deliveryAddress": "Leveradressen",
+        "mainContact": {
+          "caption": "Hoofd aanspreekpersoon",
+          "description": "Hier vindt u de hoofd aanspreekpersoon.",
+          "firstName": "Voornaam",
+          "lastName": "Naam",
+          "salutation": "Aanhef",
+          "email": "E-mailadres"
+        }
+      }
+    },
+    "accounts": {
+      "status": {
+        "Active": "Actief",
+        "Invited": "Uitgenodigd"
+      },
+      "roles": {
+        "Administrator": "Administrator",
+        "Cook": "Bereider",
+        "Orderer": "Besteller"
+      },
+      "contextMenu": {
+        "edit": "Bewerken",
+        "inviteAgain": "Opnieuw uitnodigen",
+        "delete": "Verwijderen"
+      },
+      "roleDescription": {
+        "title": "Rollenbeschrijving",
+        "admin": "Een administrator bezit alle rechten.",
+        "orderer": "Een besteller kan de bestelling doen.",
+        "cook": "En kok kan bijzondere dingen.",
+        "notAvailable": "Voor deze gebruikersrol is geen beschrijving."
+      },
+      "button": {
+        "newAccount": "Nieuwe gebruiker",
+        "createAccount": "Gebruiker aanleggen",
+        "EditAccount": "Gebruiker opslaan"
+      },
+      "errors": {
+        "title": "Fout",
+        "noUserData": "De gebruikersgegevens konden niet geladen worden, daarom kan ook de gebruikerslijst niet geladen worden. Probeer het later nog een keer."
+      },
+      "infos": {
+        "title": "Info",
+        "selectCustomer": "Om de rol van een account te bewerken, moet eerst een klantnummer gekozen worden.",
+        "noAdmin": "U bent geen administrator voor dit klantnummer.",
+        "notEditable": "Dit account kan momenteel niet bewerkt worden."
+      },
+      "modals": {
+        "confirm": "Bevestigen",
+        "cancel": "annuleren",
+        "delete": {
+          "title1": "Wilt u de gebruiker",
+          "title2": "echt van het klantnummer ontkoppelen?",
+          "message": "De gebruiker verliest zijn rechten in dit klantnummer en bijv. geen bestellingen meer maken."
+        },
+        "deleteAll": {
+          "title1": "Moeten alle klantnummers verwijderd worden?",
+          "message": "Als u dit bevestigid, is het account van {name} niet meer aan een klantnummer gekoppeld."
+        },
+        "rolechange": {
+          "title": "Rolwissel",
+          "message": "Wilt u echt de rol van de gebruiker {username} wisselen naar {role}?"
+        }
+      },
+      "notifications": {
+        "loadAccounts": {
+          "error": {
+            "title": "Laadfout",
+            "message": "De gebruikerslijst kan niet geladen worden. Probeer het later nog een keer."
+          }
+        },
+        "form": {
+          "validation": {
+            "error": {
+              "title": "Formulier fout",
+              "message": "Controleer aub het formulier op eventuele fouten."
+            }
+          }
+        },
+        "accountCreate": {
+          "success": {
+            "title": "Account uitgenodigd",
+            "message": "Er is een apetito uitnodiging aan het e-mailadres {email} verzonden."
+          },
+          "error": {
+            "title": "Account niet uitgenodigd",
+            "message": "Er is iets mis gegaan. Er is geen uitnodiging verzonden.Probeer het aub nog een keer."
+          }
+        },
+        "accountEdit": {
+          "success": {
+            "title": "Account opgeslagen",
+            "message": "Het account met e-mail {email} is succesvol opgeslagen."
+          },
+          "error": {
+            "title": "Account niet opgeslagen",
+            "message": "De wijzigingen aan het account met e-Mail {email} konden niet opgeslagen worden."
+          }
+        },
+        "accountDelete": {
+          "success": {
+            "title": "Account verwijderd",
+            "message": "De koppeling van het account met e-mail {email} met het klantnummer is verbroken."
+          },
+          "error": {
+            "title": "Account niet verwijderd",
+            "message": "Het account kon niet van dit klantnummer verwijderd worden. Probeer het later nog een keer."
+          }
+        },
+        "roleChange": {
+          "success": {
+            "title": "Account rol gewijzigd",
+            "message": "De rol van het account van {name} is gewijzigd in {role} ."
+          },
+          "error": {
+            "title": "Rol niet gewijzigd.",
+            "message": "De rol van het account van {name} is niet gewijzigd."
+          }
+        },
+        "reinvite": {
+          "success": {
+            "title": "Uitnodiging opnieuw verzonden",
+            "message": "Er werd een nieuwe uitnodiging per e-mail aan het adres {email} verstuurd."
+          },
+          "error": {
+            "title": "Nieuwe registratie is niet gelukt.",
+            "message": "Er kon geen nieuwe e-mail verstuurd worden. Probeer het later nog een keer."
+          }
+        }
+      },
+      "createForm": {
+        "newCustomer": "Nieuwe gebruiker",
+        "editCustomer": "Gebruiker bewerken",
+        "firstName": "Voornaam",
+        "lastName": "Achternaam",
+        "email": "E-mail",
+        "role": "Rol",
+        "customerNumber": "Klantnummer",
+        "selectAll": "Alle selecteren",
+        "errors": {
+          "email": {
+            "required": "Een geldig e-mailadres is verplicht, omdat de registratie uitnodiging daarheen verstuurd wordt.",
+            "invalid": "Dit is niet ingevoerd als een valide e-mailadres."
+          },
+          "customerNumbers": {
+            "required": "Vul minimaal 1 klantnummer in."
+          }
+        },
+        "cancel": "Annuleren"
+      }
+    },
+    "bkt": {
+      "pleaseSelectCustomerNumber": "Bitte wählen Sie zuerst eine Kundennummer aus.",
+      "pleaseSelectMonth": "Bitte wählen Sie einen Monat zur Eingabe der Verköstigungsteilnehmer aus.",
+      "monthsAreLoading": "Die Monate zur Tischgast Erfassung werden geladen.",
+      "isLate": "Die Eintragung dieses Monats hätte bis zum 15. des Folgemonats geschehen sollen. Bitte geben Sie möglichst bald Ihre Daten ein und schließen den Monat ab. Vielen Dank.",
+      "dailySubmissionTitle": "Taggenaue Eingabe der Beköstigungsteilnehmer",
+      "monthlySubmissionTitle": "Monatlich zusammengefasste Eingabe der Beköstigungsteilnehmer",
+      "monthSelectorLabel": "Beköstigungsmonat",
+      "closeMonthSwitchLabel": "Monat geschlossen",
+      "closeDaySwitchLabel": "geschlossen",
+      "exportPdfButtonLabel": "Export als PDF",
+      "submitMonthButtonLabel": "Erfassung abschließen",
+      "formErrorBoxTitle": "Bitte beachten Sie folgende Fehler in der Tabelle:",
+      "monthClosed": "Der Monat wurde am {date} abgeschlossen und kann nicht mehr bearbeitet werden.",
+      "monthSubmitted": "Monat abgeschlossen",
+      "loadinAvailableMonthsError": "Für diesen Kunden gibt es keine Tischgast-Erfassung  ",
+      "submitError": "Der Monat konnte leider nicht abgeschlossen werden. Melden Sie sich bitte beim Support",
+      "juneAndJuly2022": "Die Meldungen für die Monate Juni und Juli sind nur manuell per Excel-Tabelle möglich und können nicht angezeigt werden. Bitte wenden Sie sich an Ihren Kundenberater, falls dies noch nicht erfolgt ist.",
+      "missingDayEntries": "Am {day} fehlen die Einträge. Bitte den Tag schließen, wenn keine Eingaben zu machen sind.",
+      "sum": "Summe",
+      "dialogs": {
+        "common": {
+          "cancel": "abbrechen"
+        },
+        "closeMonth": {
+          "title": "Ist der ganze Monat geschlossen?",
+          "text": "Wenn Sie bestätigen, werden alle Tage auf 0 Essensteilnehmer gesetzt. Sie verlieren damit die Eingaben für diesen Monat. Sind Sie sicher?",
+          "textStart": "Wenn Sie bestätigen,",
+          "textHighlighted": "werden alle Tage auf 0 Essensteilnehmer gesetzt.",
+          "textEnd": " Sie verlieren damit die Eingaben für diesen Monat.",
+          "question": "Sind Sie sicher?",
+          "ok": "Ja, alles löschen!",
+          "cancel": "@:tabs.bkt.dialogs.common.cancel"
+        },
+        "submitMonth": {
+          "title": "Soll der Monat eingereicht werden?",
+          "textStart": "Sie melden",
+          "textTableGuest": "Tischgäste",
+          "textEnd": "für den Monat {selectedMonth}. Wollen Sie den Monat einreichen?",
+          "ok": "Ja, Monat einreichen!",
+          "cancel": "@:tabs.bkt.dialogs.common.cancel"
+        },
+        "tolerance": {
+          "title": "Toleranzabweichung",
+          "text": "Ihre Erfassung weißt eine Toleranzabweichung von {toleranceRelative} auf.",
+          "ok": "Toch opslaan!",
+          "cancel": "@:tabs.bkt.dialogs.common.cancel"
+        },
+        "okButtonDefault": "Ok",
+        "cancelButtonDefault": "annuleren"
+      }
+    }
+  },
+  "titles": {
+    "profile": "mijn.apetito {'|'} Klantaccount - Profiel",
+    "mycompany": "mijn.apetito {'|'} Klantaccount - Bedrijf",
+    "accounts": "mijn.apetito {'|'} Klantaccount - Gebruiker",
+    "orders": "mijn.apetito {'|'} Klantaccount - Bestellingen",
+    "bkt": "mijn.apetito {'|'} Klantaccount - Tischgast-Erfassung"
+  }
+}

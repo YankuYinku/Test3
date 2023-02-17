@@ -1,0 +1,377 @@
+{
+  "main": {
+    "caption": "Mein Kundenkonto",
+    "notImplemented": "Diese Funktion steht Ihnen bald zur Verfügung."
+  },
+  "navigation": {
+    "profile": "Profil",
+    "company": "Unternehmen",
+    "accounts": "Benutzer",
+    "orders": "Bestellungen",
+    "bkt": "Tischgast-Erfassung"
+  },
+  "settings": {
+    "action": {
+      "edit": "Bearbeiten"
+    }
+  },
+  "tabs": {
+    "screenReader": {
+      "selectTab": "Reiter auswählen"
+    },
+    "profile": {
+      "caption": "Ihre Daten",
+      "description": "Hier können Sie Ihre persönlichen Daten einsehen.",
+      "name": "Name",
+      "email": "E-Mail Adresse",
+      "userRole": "Benutzer-Rolle",
+      "userRoles": {
+        "user": "Benutzer",
+        "customerAdmin": "Kundenadministrator"
+      }
+    },
+    "orders": {
+      "customerNumber": "Kundennummer",
+      "orderDate": "Bestelldatum",
+      "deliveryDate": "Lieferdatum",
+      "emptyResultMessage": "Zu Ihrer Suche haben wir leider keine Bestellungen gefunden.",
+      "checkAvailability": "Prüfe Artikelverfügbarkeit",
+      "atTime": "um",
+      "types": {
+        "apetito": "apetito",
+        "handelswaren": "Handelswaren",
+        "material": "Material"
+      },
+      "notifications": {
+        "success": {
+          "title": "Danke!",
+          "addToBasketText": "Die Artikel wurden erfolgreich zum Warenkorb hinzugefügt.",
+          "addHawaToBasketSuccess": "Die {amount} Artikel wurden erfolgreich zum Warenkorb hinzugefügt"
+        },
+        "error": {
+          "title": "Hoppla!",
+          "loadOrdersText": "Das Laden der Bestellhistorie hat nicht geklappt. Melden Sie sich bitte beim Support.",
+          "loadOrderDetailsText": "Das Laden der detaillierten Bestellinformationen hat nicht geklappt. Melden Sie sich bitte für Details beim Support.",
+          "loadArticleAvailabilityText": "Die Prüfung der Artikelverfügbarkeit ist fehlgeschlagen. Melden Sie sich bei Fragen bitte an den Support.",
+          "addToBasketErrorText": "Die Artikel konnten nicht zum Warenkorb hinzugefügt werden. Melden Sie sich bitte beim Support.",
+          "addHawaToBasketGeneralError": "Es konnten keine Hawa Artikel zum Warenkorb hinzugefügt werden. Bitte melden Sie sich beim Support.",
+          "addHawaToBasketSomeFailed": "Einige ({failedCount}) Artikel konnten nicht hinzugefügt werden. Bitte überprüfen Sie den Warenkorb und fügen Sie die fehlenden Artikel manuell hinzu."
+        }
+      },
+      "status": {
+        "open": "Offen",
+        "closed": "Abgeschlossen",
+        "unknown": "Unbekannt",
+        "failed": "fehlgeschlagen",
+        "inProgress": "in Bearbeitung",
+        "succeeded": "Abgeschlossen",
+        "succeededPartially": "teilweise"
+      },
+      "products": "Produkte",
+      "filters": {
+        "searchPlaceholder": "Suche nach Artikelnummer",
+        "ordersCountLabel": "Bestellungen",
+        "orderType": {
+          "allTypes": "Alle Bestellungen",
+          "productsOnly": "apetito",
+          "hawaOnly": "Handelswaren"
+        },
+        "orderDate": {
+          "allDates": "Lieferdatum",
+          "thisMonth": "letzten 30 Tage",
+          "lastThreeMonth": "letzten 3 Monate",
+          "lastSixMonth": "letzten 6 Monate",
+          "thisYear": "dieses Jahr",
+          "lastYear": "letztes Jahr"
+        },
+        "orderStatus": {
+          "allStatus": "Status",
+          "failed": "fehlgeschlagen",
+          "inProgress": "in Bearbeitung",
+          "succeeded": "abgeschlossen",
+          "succeededPartially": "teilweise"
+        }
+      },
+      "details": {
+        "general": {
+          "orderDate": "Bestelldatum",
+          "deliveryDate": "Lieferdatum",
+          "totalAmount": "Gesamtbetrag",
+          "customerNumber": "Kundennummer",
+          "goodsRecipient": "Warenempfänger",
+          "status": "Status",
+          "email": "E-Mail",
+          "invalidPositions": "Nicht lieferbare Artikel dieser Bestellung",
+          "reorder": "Erneut bestellen",
+          "reorderImpossible": "Erneut bestellen für Handelswaren ist zur Zeit noch nicht möglich",
+          "articlesNotAvailable": "Folgende Artikel sind zur Zeit nicht lieferbar:",
+          "allArticlesAvailable": "Super - alle Artikel sind verfügbar!",
+          "pleaseConfirmToReorder": "Bitte bestätigen Sie, dass Sie die Artikel erneut bestellen möchten.",
+          "stillOrder": "Dennoch bestellen",
+          "confirmOrderButtonLabel": "Ja, bitte bestellen",
+          "cancel": "abbrechen"
+        },
+        "apetito": {
+          "statusSuccess": "Abgeschlossen",
+          "statusFail": "nicht abgeschlossen",
+          "table": {
+            "articleNumber": "Art. Id.",
+            "comment": "Kommentar",
+            "title": "Produkt",
+            "amount": "Menge",
+            "quantity": "Anzahl",
+            "available": "verfügbar"
+          }
+        },
+        "hawa": {
+          "table": {
+            "articleNumber": "Art. Nr.",
+            "description": "Beschreibung",
+            "amount": "Menge",
+            "price": "Einzelpreis",
+            "positionSum": "Summe",
+            "brutto": "Gesamt brutto",
+            "netto": "Gesamt netto",
+            "available": "verfügbar"
+          }
+        }
+      }
+    },
+    "company": {
+      "customerData": {
+        "caption": "Kundendaten",
+        "description": "Hier können Sie alle relevanten Kundendaten zu Ihrem Unternehmen einsehen.",
+        "customerNumber": "Kundennummer",
+        "company": "Firma",
+        "deliveryAddress": "Lieferadressen",
+        "mainContact": {
+          "caption": "Hauptansprechpartner",
+          "description": "Hier sehen Sie den hinterlegten Hauptansprechpartner.",
+          "firstName": "Vorname",
+          "lastName": "Name",
+          "salutation": "Anrede",
+          "email": "E-Mail Adresse"
+        }
+      }
+    },
+    "accounts": {
+      "status": {
+        "Active": "Aktiv",
+        "Invited": "Eingeladen"
+      },
+      "roles": {
+        "Administrator": "Administrator",
+        "Cook": "Koch",
+        "Orderer": "Besteller"
+      },
+      "contextMenu": {
+        "edit": "Bearbeiten",
+        "inviteAgain": "Erneut einladen",
+        "delete": "Löschen"
+      },
+      "roleDescription": {
+        "title": "Rollenbeschreibung",
+        "admin": "Ein Administrator besitzt alle Rechte.",
+        "orderer": "Ein Account vom Typ Besteller ist jemand, der bei apetito bestellen kann.",
+        "cook": "Ein Koch kann wunderbare Dinge.",
+        "notAvailable": "Für diese Benutzer-Rolle gibt es keine Beschreibung."
+      },
+      "button": {
+        "newAccount": "Neuer Benutzer",
+        "createAccount": "Benutzer anlegen",
+        "EditAccount": "Benutzer speichern"
+      },
+      "errors": {
+        "title": "Fehler",
+        "noUserData": "Die Benutzerdaten konnten nicht geladen werden, daher kann auch die Benutzerliste nicht geladen werden. Bitte versuchen Sie es erneut."
+      },
+      "infos": {
+        "title": "Info",
+        "selectCustomer": "Um die Rollen der einzelnen Accounts zu bearbeiten, muss zunächst eine Kundennummer gewählt werden.",
+        "noAdmin": "Sie sind kein Administrator für diese Kundennummer.",
+        "notEditable": "Dieser Account kann zur Zeit nicht bearbeitet werden."
+      },
+      "modals": {
+        "confirm": "Bestätigen",
+        "cancel": "abbrechen",
+        "delete": {
+          "title1": "Möchten Sie den Benutzer",
+          "title2": "wirklich von der Kundennummer trennen?",
+          "message": "Der Benutzer verliert damit seine Rechte an der Kundennummer und kann bspw. keine Bestellungen mehr aufgeben."
+        },
+        "deleteAll": {
+          "title1": "Sollen alle Kundennummern entfernt werden?",
+          "message": "Wenn Sie bestätigen, hat der Account von {name} keine Kundennummer mehr zugewiesen."
+        },
+        "rolechange": {
+          "title": "Rollenwechsel",
+          "message": "Wollen Sie wirklich die Rolle des Benutzers {username} auf {role} wechseln?"
+        }
+      },
+      "notifications": {
+        "loadAccounts": {
+          "error": {
+            "title": "Lade Fehler",
+            "message": "Die Benutzerliste konnte nicht geladen werden. Probieren Sie es bitte später erneut."
+          }
+        },
+        "form": {
+          "validation": {
+            "error": {
+              "title": "Formular Fehler",
+              "message": "Bitte überprüfen Sie das Formular auf etwaige Fehler."
+            }
+          }
+        },
+        "accountCreate": {
+          "success": {
+            "title": "Account eingeladen",
+            "message": "Eine apetito Einladung wurde an die E-Mail Adresse {email} gesendet."
+          },
+          "error": {
+            "title": "Account nicht eingeladen",
+            "message": "Etwas ging schief. Es wurde keine Einladung verschickt.\nVersuchen Sie es bitte erneut."
+          }
+        },
+        "accountEdit": {
+          "success": {
+            "title": "Account gespeichert",
+            "message": "Der Account mit der Email {email} wurde erfolgreich gespeichert."
+          },
+          "error": {
+            "title": "Account nicht gespeichert",
+            "message": "Die Änderungen am Account mit der E-Mail {email} konnte nicht gespeichert werden."
+          }
+        },
+        "accountDelete": {
+          "success": {
+            "title": "Account gelöscht",
+            "message": "Die Verbindung des Accounts mit der Email {email} zu der(n) Kundennummer(n) wurde aufgelöst."
+          },
+          "error": {
+            "title": "Account nicht gelöscht",
+            "message": "Der Account konnte nicht von der Kundennummer gelöst werden. Probieren Sie es später erneut."
+          }
+        },
+        "roleChange": {
+          "success": {
+            "title": "Account Rolle geändert",
+            "message": "Der Account von {name} wurde auf die Rolle {role} geändert."
+          },
+          "error": {
+            "title": "Rolle nicht geändert.",
+            "message": "Die Rolle des Accounts von {name} wurde nicht geändert."
+          }
+        },
+        "reinvite": {
+          "success": {
+            "title": "Einladung erneut gesendet",
+            "message": "Es wurde erneut eine Einladungs E-Mail an die Adresse {email} geschickt."
+          },
+          "error": {
+            "title": "Ein erneutes Einladen hat nicht funktioniert.",
+            "message": "Es konnte keine neue E-Mail versandt werden. Bitte versuchen Sie es später erneut."
+          }
+        }
+      },
+      "createForm": {
+        "newCustomer": "Neuer Benutzer",
+        "editCustomer": "Benutzer bearbeiten",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "email": "E-Mail",
+        "role": "Rolle",
+        "customerNumber": "Kundennummer",
+        "selectAll": "Alle auswählen",
+        "errors": {
+          "email": {
+            "required": "Die Eingabe einer gültigen E-Mail Adresse ist notwendig, da die Registrierungs-Einladung dorthin verschickt wird.",
+            "invalid": "Die Eingabe entspricht nicht einer validen E-Mail Adresse."
+          },
+          "customerNumbers": {
+            "required": "Geben Sie bitte mindestens eine Kundennummer an."
+          }
+        },
+        "cancel": "Abbrechen"
+      }
+    },
+    "bkt": {
+      "pleaseSelectCustomerNumber": "Bitte wählen Sie zuerst eine Kundennummer aus.",
+      "pleaseSelectMonth": "Bitte wählen Sie einen Monat zur Eingabe der Verköstigungsteilnehmer aus.",
+      "monthsAreLoading": "Die Monate zur Tischgast Erfassung werden geladen.",
+      "isLate": "Die Eintragung dieses Monats hätte bis zum 15. des Folgemonats geschehen sollen. Bitte geben Sie möglichst bald Ihre Daten ein und schließen den Monat ab. Vielen Dank.",
+      "dailySubmissionTitle": "Taggenaue Eingabe der Beköstigungsteilnehmer",
+      "monthlySubmissionTitle": "Monatlich zusammengefasste Eingabe der Beköstigungsteilnehmer",
+      "monthSelectorLabel": "Beköstigungsmonat",
+      "closeMonthSwitchLabel": "Monat geschlossen",
+      "closeDaySwitchLabel": "geschlossen",
+      "exportPdfButtonLabel": "Export als PDF",
+      "submitMonthButtonLabel": "Erfassung abschließen",
+      "submitButtonProcessingLabel": "Daten werden noch gespeichert...",
+      "formErrorBoxTitle": "Bitte beachten Sie folgende Fehler in der Tabelle:",
+      "monthClosed": "Der Monat wurde am {date} abgeschlossen und kann nicht mehr bearbeitet werden.",
+      "monthSubmitted": "Monat abgeschlossen",
+      "loadinAvailableMonthsError": "Für diesen Kunden gibt es keine Tischgast-Erfassung  ",
+      "submitError": "Der Monat konnte leider nicht abgeschlossen werden. Melden Sie sich bitte beim Support",
+      "juneAndJuly2022": "Die Meldungen für die Monate Juni und Juli sind nur manuell per Excel-Tabelle möglich und können nicht angezeigt werden. Bitte wenden Sie sich an Ihren Kundenberater, falls dies noch nicht erfolgt ist.",
+      "missingDayEntries": "Am {day} fehlen die Einträge. Bitte den Tag schließen, wenn keine Eingaben zu machen sind.",
+      "sum": "Summe",
+      "dialogs": {
+        "common": {
+          "cancel": "abbrechen"
+        },
+        "closeDay": {
+          "title": "Den ganzen Tag schließen?",
+          "text": "Wenn Sie bestätigen, werden die Eingaben der Essensteilnehmer des gesamten Tages entfernt.",
+          "ok": "Ja, Tag schließen.",
+          "cancel": "@:tabs.bkt.dialogs.common.cancel"
+        },
+        "closeMonth": {
+          "title": "Ist der ganze Monat geschlossen?",
+          "text": "Wenn Sie bestätigen, werden alle Tage auf 0 Essensteilnehmer gesetzt. Sie verlieren damit die Eingaben für diesen Monat. Sind Sie sicher?",
+          "textStart": "Wenn Sie bestätigen,",
+          "textHighlighted": "werden alle Tage auf 0 Essensteilnehmer gesetzt.",
+          "textEnd": " Sie verlieren damit die Eingaben für diesen Monat.",
+          "question": "Sind Sie sicher?",
+          "ok": "Ja, alles löschen!",
+          "cancel": "@:tabs.bkt.dialogs.common.cancel"
+        },
+        "submitMonth": {
+          "title": "Soll der Monat eingereicht werden?",
+          "textStart": "Sie melden",
+          "textTableGuest": "Tischgäste",
+          "textEnd": "für den Monat {selectedMonth}. Wollen Sie den Monat einreichen?",
+          "ok": "Ja, Monat einreichen!",
+          "cancel": "@:tabs.bkt.dialogs.common.cancel"
+        },
+        "tolerance": {
+          "title": "Abweichende Eingabe",
+          "toleranceDeviation":"Ihre Eingaben weichen um mehr als {deviation} von den erwarteten Tischgastzahlen ab. Möchten Sie die Eingaben trotzdem einreichen?",
+          "ok": "Dennoch einreichen!",
+          "cancel": "@:tabs.bkt.dialogs.common.cancel"
+        },
+        "okButtonDefault": "Ok",
+        "cancelButtonDefault": "abbrechen"
+      },
+      "notifications": {
+        "monthCloseSuccessTitle": "Monat geschlossen",
+        "monthCloseSuccessText": "Die Einträge aller Tage wurden entfernt.",
+        "monthCloseErrorTitle": "Hoppla!",
+        "monthCloseErrorText": "Der Monat konnte nicht geschlossen werden. Versuchen Sie bitte die Werte selber zu löschen oder melden Sie sich beim Support.",
+        "submitMonthSuccessTitle": "Vielen Dank!",
+        "submitMonthSuccessText": "Der Monat wurde erfolgreich eingereicht. Er kann jetzt nicht mehr bearbeitet werden.",
+        "submitMonthErrorTitle": "Hoppla!",
+        "submitMonthErrorText": "Der Monat konnte leider nicht abgeschlossen werden. Melden Sie sich bitte beim Support.",
+        "checkToleranceErrorTitle": "Die Toleranz Prüfung konnte nicht durchgeführt werden.",
+        "checkToleranceErrorText": "Falls Sie sich nicht sicher sind, melden Sie sich beim Support."
+      }
+    }
+  },
+  "titles": {
+    "profile": "mein.apetito {'|'} Kundenkonto - Profil",
+    "mycompany": "mein.apetito {'|'} Kundenkonto - Unternehmen",
+    "accounts": "mein.apetito {'|'} Kundenkonto - Benutzer",
+    "orders": "mein.apetito {'|'} Kundenkonto - Bestellungen",
+    "bkt": "mein.apetito {'|'} Kundenkonto - Tischgast-Erfassung"
+  }
+}
