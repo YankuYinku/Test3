@@ -1,0 +1,29 @@
+{
+  "common": {
+    "send": "Senden"
+  },
+  "formField": {
+    "label": {
+      "topic": "Thema",
+      "subject": "Betreff",
+      "message": "Ihr Anliegen"
+    },
+    "topic": {
+      "products": "Fragen zu Produkten",
+      "preparation": "Fragen zur Zubereitung",
+      "orders": "Fragen zur Bestellung",
+      "technical": "Technische Fragen",
+      "suggestions": "Anregungen & Vorschläge"
+    }
+  },
+  "status": {
+    "success": {
+      "title": "Erfolg",
+      "text": "Die Nachricht wurde erfolgreich übermittelt."
+    },
+    "error": {
+        "title": "Fehler",
+        "text": "Die Nachricht konnte nicht übermittelt werden."
+    }
+  }
+}

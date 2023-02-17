@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: apps-application-guard
+spec:
+  selector:
+    app: apps-application-guard
+  ports:
+  - port: 80
+    targetPort: 80

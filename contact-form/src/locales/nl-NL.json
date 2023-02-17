@@ -1,0 +1,29 @@
+{
+  "common": {
+    "send": "Verzenden"
+  },
+  "formField": {
+    "label": {
+      "topic": "Thema",
+      "subject": "Onderwerp",
+      "message": "Uw bericht aan ons"
+    },
+    "topic": {
+      "products": "Vragen over onze producten",
+      "preparation": "Vragen over bereiding",
+      "orders": "Vragen over bestellen",
+      "technical": "Technische vragen",
+      "suggestions": "Opmerkingen en suggesties"
+    }
+  },
+  "status": {
+    "success": {
+      "title": "Succes",
+      "text": "Uw bericht is succesvol verzonden."
+    },
+    "error": {
+        "title": "Fout",
+        "text": "Het bericht kon niet verzonden worden."
+    }
+  }
+}

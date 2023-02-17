@@ -1,0 +1,8 @@
+{
+  "guard": {
+    "customerNumber": {
+      "title": "Bitte wählen Sie eine Kundennummer aus.",
+      "description": "Um diese Anwendung verwenden zu können muss eine Kundennummer selektiert werden. Bitte wählen Sie diese im oberen Bereich aus."
+    }
+  }
+}

@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-application-guard
+
+spec:
+  selector:
+    matchLabels:
+      app: apps-application-guard
+
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: apps-application-guard
+
+    spec:
+      containers:
+        - name: apps-application-guard
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-application-guard:latest
+          imagePullPolicy: Always
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Production
+          resources:
+            limits:
+              memory: '64Mi'
+              cpu: '50m'
+          ports:
+            - containerPort: 80

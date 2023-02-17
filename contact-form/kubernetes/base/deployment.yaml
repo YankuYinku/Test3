@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-contact-form
+
+spec:
+  selector:
+    matchLabels:
+      app: apps-contact-form
+
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: apps-contact-form
+
+    spec:
+      containers:
+        - name: apps-contact-form
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-contact-form:latest
+          imagePullPolicy: Always
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Production
+            - name: VUE_APP_PRISMIC_REPOSITORY
+              value: meinapetito
+          resources:
+            limits:
+              memory: '16Mi'
+              cpu: '50m'
+            requests:
+              memory: '4Mi'
+              cpu: '5m'
+          ports:
+            - containerPort: 80
