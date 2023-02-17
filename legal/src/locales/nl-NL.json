@@ -1,0 +1,11 @@
+{
+  "main": {
+    "caption": "Privacy"
+  },
+  "cookieBanner": {
+    "link": "Cookies"
+  },
+  "titles": {
+    "privacypolicy": "mijn.apetito {'|'} Privacy"
+  }
+}
