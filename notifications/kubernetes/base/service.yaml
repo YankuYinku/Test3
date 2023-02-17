@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: apps-notifications
+spec:
+  selector:
+    app: apps-notifications
+  ports:
+  - port: 80
+    targetPort: 80

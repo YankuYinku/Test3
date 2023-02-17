@@ -1,0 +1,16 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-notifications
+
+spec:
+  replicas: 1
+
+  template:
+    spec:
+      containers:
+        - name: apps-notifications
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-notifications:<Tag>
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Development
