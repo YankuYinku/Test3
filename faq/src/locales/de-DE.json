@@ -1,0 +1,30 @@
+{
+  "Faq": {
+    "Overview": {
+      "Header": {
+        "Salutation": "Hallo",
+        "HowCanWeHelp": "bei welchen Themen können wir Ihnen helfen?"
+      },
+      "ShowAllLink": "Alle anzeigen"
+    },
+    "GroupDetails": {
+      "Header": {
+        "Headline": "Hilfethemen",
+        "BackLink": "Zurück zur Übersicht",
+        "AllTopics": "Alle"
+      }
+    },
+    "FaqSlice": {
+      "Question": "Frage"
+    },
+    "FaqVideoSlice": {
+      "Video": "Video",
+      "Minutes": "Minuten"
+    }
+  },
+  "titles": {
+    "faq": "mein.apetito {'|'} Häufige Fragen",
+    "faqgroup": "mein.apetito {'|'} Häufige Fragen - Gruppen",
+    "faqtopic": "mein.apetito {'|'} Häufige Fragen - Themen"
+  }
+}

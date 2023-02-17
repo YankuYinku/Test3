@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-faq
+
+spec:
+  selector:
+    matchLabels:
+      app: apps-faq
+
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: apps-faq
+
+    spec:
+      containers:
+        - name: apps-faq
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-faq:latest
+          imagePullPolicy: Always
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Production
+            - name: VUE_APP_PRISMIC_REPOSITORY
+              value: meinapetito
+            - name: VUE_APP_MEINAPETITO_PORTAL_BASE_URL
+              value: https://mein.apetito.de/api
+            - name: VUE_APP_MEINAPETITO_GRAPHQL_URL
+              value: https://mein.apetito.de/api/graphql
+          resources:
+            limits:
+              memory: '16Mi'
+              cpu: '50m'
+            requests:
+              memory: '4Mi'
+              cpu: '5m'
+          ports:
+            - containerPort: 80

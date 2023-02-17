@@ -1,0 +1,30 @@
+{
+  "Faq": {
+    "Overview": {
+      "Header": {
+        "Salutation": "Hallo",
+        "HowCanWeHelp": "hoe kunnen we u verder  helpen?"
+      },
+      "ShowAllLink": "Alle tonen"
+    },
+    "GroupDetails": {
+      "Header": {
+        "Headline": "Help onderwerpen",
+        "BackLink": "Terug naar overzicht",
+        "AllTopics": "Alle"
+      }
+    },
+    "FaqSlice": {
+      "Question": "Vraag"
+    },
+    "FaqVideoSlice": {
+      "Video": "Video",
+      "Minutes": "minuten"
+    }
+  },
+  "titles": {
+    "faq": "mijn.apetito {'|'} Veelgestelde vragen",
+    "faqgroup": "mijn.apetito {'|'} Veelgestelde vragen - Groepen",
+    "faqtopic": "mein.apetito {'|'} Veelgestelde vragen - Onderwerpen"
+  }
+}
