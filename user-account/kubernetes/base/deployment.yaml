@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-user-account
+
+spec:
+  selector:
+    matchLabels:
+      app: apps-user-account
+
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: apps-user-account
+
+    spec:
+      containers:
+        - name: apps-user-account
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-user-account:latest
+          imagePullPolicy: Always
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Production
+            - name: VUE_APP_MEINAPETITO_GRAPHQL_URI
+              value: https://mein.apetito.de/api/graphql
+            - name: VUE_APP_MEINAPETITO_PORTAL_BASE_URL
+              value: https://mein.apetito.de/api
+          resources:
+            limits:
+              memory: '16Mi'
+              cpu: '50m'
+            requests:
+              memory: '4Mi'
+              cpu: '5m'
+          ports:
+            - containerPort: 80

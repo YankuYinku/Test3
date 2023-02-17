@@ -1,0 +1,24 @@
+{
+  "UserAccountSettings": {
+    "Profile": {
+      "YourProfile": "Mijn profiel",
+      "YourData": "Mijn gegevens",
+      "PasswordAndSecurity": "Wachtwoord en beveiliging"
+    },
+    "Company": {
+      "YourCompany": "Mijn bedrijf",
+      "CustomerData": "Klantaccount"
+    },
+    "ChangePassword": "Wachtwoord wijzigen",
+    "Logout": "Afmelden"
+  },
+  "CustomerSelection": {
+    "SingleCustomerLabel": "Klant",
+    "MultipleCustomerLabel": "Klant",
+    "AllCustomersOption": "Alle klanten",
+    "NoCustomer": "geen klanten",
+  },
+  "Feature": {
+    "UnderDevelopment": "Functie is nog niet ontwikkeld"
+  }
+}

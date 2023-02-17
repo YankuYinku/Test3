@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-user-account
+
+spec:
+  replicas: 1
+
+  template:
+    spec:
+      containers:
+        - name: apps-user-account
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-user-account:latest
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Staging
+            - name: VUE_APP_MEINAPETITO_PORTAL_BASE_URL
+              value: https://staging.meinapetito.de/api
+            - name: VUE_APP_MEINAPETITO_GRAPHQL_URI
+              value: https://staging.meinapetito.de/api/graphql

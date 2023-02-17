@@ -1,0 +1,24 @@
+{
+  "UserAccountSettings": {
+    "Profile": {
+      "YourProfile": "Ihr Profil",
+      "YourData": "Ihre Daten",
+      "PasswordAndSecurity": "Passwort & Sicherheit"
+    },
+    "Company": {
+      "YourCompany": "Ihr Unternehmen",
+      "CustomerData": "Kundenkonto"
+    },
+    "ChangePassword": "Passwort ändern",
+    "Logout": "Abmelden"
+  },
+  "CustomerSelection": {
+    "SingleCustomerLabel": "Kunde",
+    "MultipleCustomerLabel": "Kunde",
+    "AllCustomersOption": "Alle Kunden",
+    "NoCustomer": "keine Kunden",
+  },
+  "Feature": {
+    "UnderDevelopment": "Funktion noch nicht entwickelt"
+  }
+}
