@@ -1,0 +1,33 @@
+{
+  "navigation": {
+    "expand": "Mehr Informationen darstellen",
+    "collapse": "Weniger Informationen darstellen",
+    "header": {
+      "my": "mein",
+      "apetito": "apetito",
+      "myApetito": "mein Apetito"
+    },
+    "search": {
+      "placeholder": "Suchen",
+      "label": "Suche"
+    },
+    "items": {
+      "home": "Startseite",
+      "menuPlan": "Speiseplanung",
+      "gnomeKitchen": "Menüauswahl",
+      "products": "Produkte",
+      "merchandise": "Handelswaren",
+      "materials": "Zubehör & Infomaterial",
+      "downloads": "Downloads",
+      "seminars": "Seminare",
+      "menuServiceManager": "Menüservice",
+      "contact": "Kontakt",
+      "help": "Hilfe",
+      "tos": "AGB",
+      "imprint": "Impressum",
+      "privacyPolicy": "Datenschutz",
+      "userAccount": "Kundenkonto",
+      "mylunch":"mylunch"
+    }
+  }
+}

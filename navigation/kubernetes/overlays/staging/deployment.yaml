@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-navigation
+
+spec:
+  replicas: 1
+
+  template:
+    spec:
+      containers:
+        - name: apps-navigation
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-navigation:latest
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Staging
+            - name: VUE_APP_PRISMIC_REPOSITORY
+              value: meinapetito
+            - name: VUE_APP_SEMINARS_URL
+              value: https://www.apetito-kundenschulung.de/

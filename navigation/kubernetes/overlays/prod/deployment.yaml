@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-navigation
+
+spec:
+  replicas: 3
+  
+  template:
+    spec:
+      containers:
+        - name: apps-navigation
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-navigation:latest
+          imagePullPolicy: Always

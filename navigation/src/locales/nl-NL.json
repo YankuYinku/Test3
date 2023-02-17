@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "expand": "Meer informatie tonen",
+    "collapse": "Minder informatie tonen",
+    "header": {
+      "my": "mijn",
+      "apetito": "apetito",
+      "myApetito": "mijn Apetito"
+    },
+    "search": {
+      "placeholder": "Zoeken",
+      "label": "Zoeken"
+    },
+    "items": {
+      "home": "Overzicht",
+      "menuPlan": "Menuplanner",
+      "gnomeKitchen": "Menukeuze",
+      "products": "Producten",
+      "merchandise": "Handelswaren",
+      "materials": "Folders & Benodigdheden",
+      "downloads": "Downloads",
+      "seminars": "Seminars",
+      "contact": "Contact",
+      "menuServiceManager": "à la carte",
+      "help": "Help",
+      "tos": "Algemene voorwaarden",
+      "imprint": "Over ons",
+      "privacyPolicy": "Privacy",
+      "userAccount": "Klantaccount"
+    }
+  }
+}

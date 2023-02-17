@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-navigation
+
+spec:
+  selector:
+    matchLabels:
+      app: apps-navigation
+
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: apps-navigation
+
+    spec:
+      containers:
+        - name: apps-navigation
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-navigation:latest
+          imagePullPolicy: Always
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Production
+            - name: VUE_APP_PRISMIC_REPOSITORY
+              value: meinapetito
+            - name: VUE_APP_SEMINARS_URL
+              value: https://www.apetito-kundenschulung.de/
+          resources:
+            limits:
+              memory: '16Mi'
+              cpu: '50m'
+            requests:
+              memory: '4Mi'
+              cpu: '5m'
+          ports:
+            - containerPort: 80
