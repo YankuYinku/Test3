@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-mini-basket
+
+spec:
+  selector:
+    matchLabels:
+      app: apps-mini-basket
+
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: apps-mini-basket
+
+    spec:
+      containers:
+      - name: apps-mini-basket
+        image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-mini-basket:latest
+        imagePullPolicy: Always
+        env:
+          - name: VUE_APP_BASKET_BASE_URL
+            value: https://api.apetito.de/basket/partnerportal/basket
+          - name: VUE_APP_BASKET_INITIALIZATION_URL
+            value: https://api.apetito.de/basket/partnerportal/shoppingsession
+        resources:
+          limits:
+            memory: '16Mi'
+            cpu: '50m'
+          requests:
+            memory: '4Mi'
+            cpu: '5m'
+        ports:
+        - containerPort: 80

@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: apps-mini-basket
+spec:
+  selector:
+    app: apps-mini-basket
+  ports:
+  - port: 80
+    targetPort: 80

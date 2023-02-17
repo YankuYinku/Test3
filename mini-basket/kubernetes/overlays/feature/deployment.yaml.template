@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-mini-basket
+
+spec:
+  replicas: 1
+
+  template:
+    spec:
+      containers:
+      - name: apps-mini-basket
+        image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-mini-basket:<Tag>
+        env:
+          - name: VUE_APP_BASKET_BASE_URL
+            value: https://shared-partnerportalbasket.dev.apebs.de/basket
+          - name: VUE_APP_BASKET_INITIALIZATION_URL
+            value: https://shared-partnerportalbasket.dev.apebs.de/shoppingsession

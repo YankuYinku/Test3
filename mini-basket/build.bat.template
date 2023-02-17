@@ -1,0 +1,5 @@
+cd /D "%~dp0"
+
+docker build -t apetitoebusinesssolutions.azurecr.io/meinapetito-apps-mini-basket -f Dockerfile . --build-arg PAT=%1
+docker tag apetitoebusinesssolutions.azurecr.io/meinapetito-apps-mini-basket apetitoebusinesssolutions.azurecr.io/meinapetito-apps-mini-basket:<Tag>
+docker push apetitoebusinesssolutions.azurecr.io/meinapetito-apps-mini-basket:<Tag>
