@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apps-user-account-details
+
+spec:
+  selector:
+    matchLabels:
+      app: apps-user-account-details
+
+  replicas: 3
+
+  template:
+    metadata:
+      labels:
+        app: apps-user-account-details
+
+    spec:
+      containers:
+        - name: apps-user-account-details
+          image: apetitoebusinesssolutions.azurecr.io/meinapetito-apps-user-account-details:latest
+          imagePullPolicy: Always
+          env:
+            - name: VUE_APP_ENVIRONMENT
+              value: Production
+            - name: VUE_APP_PRISMIC_REPOSITORY
+              value: meinapetito
+          resources:
+            limits:
+              memory: '32Mi'
+              cpu: '50m'
+            requests:
+              memory: '8Mi'
+              cpu: '10m'
+          ports:
+            - containerPort: 80
